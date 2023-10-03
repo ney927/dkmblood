@@ -1,0 +1,39 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-image: url("/Users/khizarmalik/desktop/Arts_Crafts/resources/images/pattern.jpeg");
+}
+
+h2{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    background-color: mediumspringgreen;
+}
+a{
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+.Frames{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    background-color: lightcoral;
+}
+
+.paint{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    background-color: skyblue;
+}
