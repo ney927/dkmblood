@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Table Example</title>
+</head>
+<body>
+    <table id="data-table" border="1">
+        <thead>
+            <tr>
+                <th>Send Message</th>
+                <th>Blood Type</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Health Conditions</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+<script>
+    const options = {
+        method: 'GET',
+    }
+    fetch('/get-users', options)
+    .then((res) => { return res.json()})
+    .then((data) => {
+        const tableBody = document.getElementById("data-table")
+        for (let i =0; i<data.length; i++){
+            if (data[i].open_to_donations){
+                const row = tableBody.insertRow();
+                const mssgCell = row.insertCell(0);
+                const bloodCell = row.insertCell(1);
+                const ageCell = row.insertCell(2);
+                const sexCell = row.insertCell(3);
+                const healthCell = row.insertCell(4);
+                let button =document.createElement("button");
+                button.textContent = "Contact"
+                mssgCell.appendChild(button)
+                bloodCell.textContent = data[i].blood_type;
+                ageCell.textContent = data[i].age;
+                sexCell.textContent = data[i].sex;
+                let button2 = document.createElement("button")
+                button2.textContent = "Medical Profile"
+                healthCell.appendChild(button2)
+            }
+            
+        }
+    })
+    .catch((err)=> console.log(err))
+</script>
+</html>
