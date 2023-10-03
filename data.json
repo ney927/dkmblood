@@ -1,0 +1,234 @@
+{
+    "users": [
+      {
+        "username": "user1",
+        "email": "user1@example.com",
+        "password": "password1",
+        "address": "123 Main St, Cityville",
+        "phone_number": "555-123-4567",
+        "medical_profile": "Allergic to peanuts",
+        "open_to_donations": true
+      },
+      {
+        "username": "user2",
+        "email": "user2@example.com",
+        "password": "password2",
+        "address": "456 Elm St, Townsville",
+        "phone_number": "555-987-6543",
+        "medical_profile": "Type 2 diabetes",
+        "open_to_donations": false
+      },
+      {
+        "username": "user3",
+        "email": "user3@example.com",
+        "password": "password3",
+        "address": "789 Oak St, Villagetown",
+        "phone_number": "555-789-1234",
+        "medical_profile": "Asthma",
+        "open_to_donations": true
+      },
+      {
+        "username": "user4",
+        "email": "user4@example.com",
+        "password": "password4",
+        "address": "101 Pine St, Hamletville",
+        "phone_number": "555-456-7890",
+        "medical_profile": "High blood pressure",
+        "open_to_donations": false
+      },
+      {
+        "username": "user5",
+        "email": "user5@example.com",
+        "password": "password5",
+        "address": "222 Cedar St, Countryside",
+        "phone_number": "555-654-3210",
+        "medical_profile": "Allergic to shellfish",
+        "open_to_donations": true
+      }
+    ],
+    "diagnoses": [
+      {
+        "date": "2023-10-01",
+        "user": "user1",
+        "confirmed_by_doctor": true,
+        "medical_care_received": "Prescribed antibiotics."
+      },
+      {
+        "date": "2023-10-02",
+        "user": "user2",
+        "confirmed_by_doctor": true,
+        "medical_care_received": "Underwent surgery."
+      },
+      {
+        "date": "2023-10-03",
+        "user": "user3",
+        "confirmed_by_doctor": false,
+        "medical_care_received": "Advised rest and hydration."
+      },
+      {
+        "date": "2023-10-04",
+        "user": "user4",
+        "confirmed_by_doctor": true,
+        "medical_care_received": "Started medication for blood pressure control."
+      },
+      {
+        "date": "2023-10-05",
+        "user": "user5",
+        "confirmed_by_doctor": true,
+        "medical_care_received": "Received an epinephrine auto-injector for allergies."
+      },
+      {
+        "date": "2023-10-06",
+        "user": "user1",
+        "confirmed_by_doctor": true,
+        "medical_care_received": "Physical therapy sessions."
+      },
+      {
+        "date": "2023-10-07",
+        "user": "user2",
+        "confirmed_by_doctor": true,
+        "medical_care_received": "Prescribed pain medication."
+      },
+      {
+        "date": "2023-10-08",
+        "user": "user3",
+        "confirmed_by_doctor": true,
+        "medical_care_received": "Underwent lung function tests."
+      },
+      {
+        "date": "2023-10-09",
+        "user": "user4",
+        "confirmed_by_doctor": false,
+        "medical_care_received": "Scheduled for a follow-up appointment."
+      },
+      {
+        "date": "2023-10-10",
+        "user": "user5",
+        "confirmed_by_doctor": true,
+        "medical_care_received": "Consulted with an allergist."
+      }
+    ],
+    "blood_donations": [
+      {
+        "date": "2023-10-11",
+        "blood_type": "A+",
+        "user": "user1",
+        "use_of": "Emergency surgery for another patient",
+        "notes": "Donated 1 pint of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-12",
+        "blood_type": "B-",
+        "user": "user2",
+        "use_of": "Treating a trauma patient",
+        "notes": "Donated 2 pints of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-13",
+        "blood_type": "O+",
+        "user": "user3",
+        "use_of": "Scheduled blood bank donation",
+        "notes": "Donated 1 pint of blood.",
+        "blood_received": false
+      },
+      {
+        "date": "2023-10-14",
+        "blood_type": "AB-",
+        "user": "user4",
+        "use_of": "Transfusion for a surgical patient",
+        "notes": "Donated 3 pints of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-15",
+        "blood_type": "A-",
+        "user": "user5",
+        "use_of": "Emergency room patient in need",
+        "notes": "Donated 1 pint of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-16",
+        "blood_type": "O+",
+        "user": "user1",
+        "use_of": "Scheduled blood bank donation",
+        "notes": "Donated 1 pint of blood.",
+        "blood_received": false
+      },
+      {
+        "date": "2023-10-17",
+        "blood_type": "B+",
+        "user": "user2",
+        "use_of": "Transfusion for a cancer patient",
+        "notes": "Donated 2 pints of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-18",
+        "blood_type": "O-",
+        "user": "user3",
+        "use_of": "Treating a car accident victim",
+        "notes": "Donated 2 pints of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-19",
+        "blood_type": "A-",
+        "user": "user4",
+        "use_of": "Scheduled blood bank donation",
+        "notes": "Donated 1 pint of blood.",
+        "blood_received": false
+      },
+      {
+        "date": "2023-10-20",
+        "blood_type": "AB+",
+        "user": "user5",
+        "use_of": "Transfusion for a surgery patient",
+        "notes": "Donated 3 pints of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-21",
+        "blood_type": "B+",
+        "user": "user1",
+        "use_of": "Treating an accident victim",
+        "notes": "Donated 2 pints of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-22",
+        "blood_type": "A+",
+        "user": "user2",
+        "use_of": "Scheduled blood bank donation",
+        "notes": "Donated 1 pint of blood.",
+        "blood_received": false
+      },
+      {
+        "date": "2023-10-23",
+        "blood_type": "O-",
+        "user": "user3",
+        "use_of": "Transfusion for a surgical patient",
+        "notes": "Donated 3 pints of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-24",
+        "blood_type": "AB-",
+        "user": "user4",
+        "use_of": "Treating a trauma patient",
+        "notes": "Donated 2 pints of blood.",
+        "blood_received": true
+      },
+      {
+        "date": "2023-10-25",
+        "blood_type": "B-",
+        "user": "user5",
+        "use_of": "Emergency room patient in need",
+        "notes": "Donated 1 pint of blood.",
+        "blood_received": true
+      }
+    ]
+  }
+  

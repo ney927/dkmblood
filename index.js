@@ -16,3 +16,15 @@ const PORT = process.env.PORT ||5000;
 app.listen(PORT,console.log(`Server started on port ${PORT}\nhttp://localhost:${PORT}/`));
 app.use(express.static('public'));
 app.use(express.json());
+const fs = require('fs')
+
+//to use POST forms
+const parseUrl = require('body-parser')
+const encodeUrl = parseUrl.urlencoded({ extended: false })
+
+app.get('/get', async function(request, response){
+    let data = fs.readFileSync('data.json', (data)=>{
+        console.log(data);
+        console.log("got data")
+    })
+});
