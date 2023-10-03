@@ -58,7 +58,6 @@ body {
     font-weight: bold;
 }
 
-.login-form input[type="text"],
 .login-form input[type="password"] {
     width: 100%;
     padding: 10px;
@@ -99,3 +98,5 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+
