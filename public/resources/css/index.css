@@ -99,4 +99,29 @@ body {
     height: auto;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
 
+  /* Style the table header (thead) */
+thead {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the table header cells (th) */
+  th {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Style the table rows (tr) */
+  tr {
+    background-color: #fff;
+  }
+
+  td {
+    padding: 2px;
+  }
