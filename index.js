@@ -22,9 +22,26 @@ const fs = require('fs')
 const parseUrl = require('body-parser')
 const encodeUrl = parseUrl.urlencoded({ extended: false })
 
-app.get('/get', async function(request, response){
-    let data = fs.readFileSync('data.json', (data)=>{
-        console.log(data);
-        console.log("got data")
-    })
+app.get('/get-users', async function(request, response){
+    console.log("hi");
+    
+    let rawdata = fs.readFileSync('data.json');
+    let data = JSON.parse(rawdata);
+    response.json(data.users);
+});
+
+app.get('/get-diagnoses', async function(request, response){
+    console.log("hi");
+    
+    let rawdata = fs.readFileSync('data.json');
+    let data = JSON.parse(rawdata);
+    response.json(data.users);
+});
+
+app.get('/get-donations', async function(request, response){
+    console.log("hi");
+    
+    let rawdata = fs.readFileSync('data.json');
+    let data = JSON.parse(rawdata);
+    response.json(data.blood_donations);
 });
