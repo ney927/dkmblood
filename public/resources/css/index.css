@@ -3,10 +3,6 @@ body {
     background-color: #f4f5f7;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .header {
@@ -58,6 +54,7 @@ body {
     font-weight: bold;
 }
 
+.login-form input[type="text"],
 .login-form input[type="password"] {
     width: 100%;
     padding: 10px;
@@ -86,8 +83,6 @@ body {
     padding: 5px 10px;
     border-radius: 3px;
 }
-
-/* Your existing styles for header, logo, and navigation */
 
 .photo {
     text-align: center;
