@@ -3,6 +3,10 @@ body {
     background-color: #f4f5f7;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .header {
@@ -86,10 +90,6 @@ body {
 
 /* Your existing styles for header, logo, and navigation */
 
-/* Your existing styles for header, logo, and navigation */
-
-/* Your existing styles for header, logo, and navigation */
-
 .photo {
     text-align: center;
     margin-top: 20px; /* Adjust the margin to create space below the logo and navigation */
@@ -99,5 +99,3 @@ body {
     max-width: 100%;
     height: auto;
 }
-
-
