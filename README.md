@@ -4,12 +4,15 @@
 View User & sort by:            <br/>
 - name                        <br/>
 - open to blood donations     <br/>
+
 View each User                  <br/>
 - Diagnoses                   <br/>
 -   blood donations             <br/>
 -   profile info                <br/>
 -   medical info                <br/>
+
 View Diagnoses & Sort by ?      <br/>
+
 View each Diagnosis             <br/>
 - edit -> update recieved care / confirmed diagnosis  <br/>
 View Blood Donations and Sort by:                       <br/>
