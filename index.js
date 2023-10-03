@@ -10,10 +10,10 @@ app.get('/', (req, res) => {
 })
  
 // Port Number
-const PORT = process.env.PORT ||5000;
+const PORT = process.env.PORT ||3000;
  
 // Server Setup
-app.listen(PORT,console.log(`Server started on port ${PORT}\nhttp://localhost:${PORT}/`));
+app.listen(PORT,console.log(`Server started on port ${PORT}\nhttp://localhost:${PORT}/home.html`));
 app.use(express.static('public'));
 app.use(express.json());
 const fs = require('fs')
