@@ -100,4 +100,29 @@ body {
     height: auto;
 }
 
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+h1 {
+    text-align: center;
+}
+
+ul.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.options li {
+    margin-bottom: 10px;
+}
+
+a.option-link {
+    text-decoration: none;
+    color: #007bff;
+}
