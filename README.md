@@ -1,8 +1,8 @@
 # dkmblood-
 
 # Admin Pages
-View User & sort by:
-    name
+View User & sort by:    <br/>
+    name__
     open to blood donations
 View each User 
     Diagnoses
