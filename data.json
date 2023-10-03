@@ -7,7 +7,10 @@
         "address": "123 Main St, Cityville",
         "phone_number": "555-123-4567",
         "medical_profile": "Allergic to peanuts",
-        "open_to_donations": true
+        "open_to_donations": true,
+        "age": 30,
+        "sex": "Male",
+        "blood_type": "A+"
       },
       {
         "username": "user2",
@@ -16,7 +19,10 @@
         "address": "456 Elm St, Townsville",
         "phone_number": "555-987-6543",
         "medical_profile": "Type 2 diabetes",
-        "open_to_donations": false
+        "open_to_donations": false,
+        "age": 25,
+        "sex": "Female",
+        "blood_type": "B-"
       },
       {
         "username": "user3",
@@ -25,7 +31,10 @@
         "address": "789 Oak St, Villagetown",
         "phone_number": "555-789-1234",
         "medical_profile": "Asthma",
-        "open_to_donations": true
+        "open_to_donations": true,
+        "age": 40,
+        "sex": "Male",
+        "blood_type": "O+"
       },
       {
         "username": "user4",
@@ -34,7 +43,10 @@
         "address": "101 Pine St, Hamletville",
         "phone_number": "555-456-7890",
         "medical_profile": "High blood pressure",
-        "open_to_donations": false
+        "open_to_donations": false,
+        "age": 35,
+        "sex": "Female",
+        "blood_type": "AB-"
       },
       {
         "username": "user5",
@@ -43,7 +55,190 @@
         "address": "222 Cedar St, Countryside",
         "phone_number": "555-654-3210",
         "medical_profile": "Allergic to shellfish",
-        "open_to_donations": true
+        "open_to_donations": true,
+        "age": 28,
+        "sex": "Male",
+        "blood_type": "A-"
+      },
+      {
+        "username": "user6",
+        "email": "user6@example.com",
+        "password": "password6",
+        "address": "333 Oak St, Suburbia",
+        "phone_number": "555-333-5555",
+        "medical_profile": "None",
+        "open_to_donations": true,
+        "age": 22,
+        "sex": "Female",
+        "blood_type": "B+"
+      },
+      {
+        "username": "user7",
+        "email": "user7@example.com",
+        "password": "password7",
+        "address": "444 Maple St, Uptown",
+        "phone_number": "555-444-7777",
+        "medical_profile": "High cholesterol",
+        "open_to_donations": false,
+        "age": 50,
+        "sex": "Male",
+        "blood_type": "O-"
+      },
+      {
+        "username": "user8",
+        "email": "user8@example.com",
+        "password": "password8",
+        "address": "555 Pine St, Downtown",
+        "phone_number": "555-555-9999",
+        "medical_profile": "Migraines",
+        "open_to_donations": true,
+        "age": 32,
+        "sex": "Female",
+        "blood_type": "AB+"
+      },
+      {
+        "username": "user9",
+        "email": "user9@example.com",
+        "password": "password9",
+        "address": "666 Elm St, Riverside",
+        "phone_number": "555-666-1111",
+        "medical_profile": "Allergic to pollen",
+        "open_to_donations": true,
+        "age": 27,
+        "sex": "Male",
+        "blood_type": "A+"
+      },
+      {
+        "username": "user10",
+        "email": "user10@example.com",
+        "password": "password10",
+        "address": "777 Oak St, Parkville",
+        "phone_number": "555-777-2222",
+        "medical_profile": "Type 1 diabetes",
+        "open_to_donations": false,
+        "age": 45,
+        "sex": "Female",
+        "blood_type": "B+"
+      },
+      {
+        "username": "user11",
+        "email": "user11@example.com",
+        "password": "password11",
+        "address": "888 Maple St, Lakeside",
+        "phone_number": "555-888-3333",
+        "medical_profile": "Asthma",
+        "open_to_donations": true,
+        "age": 38,
+        "sex": "Male",
+        "blood_type": "O-"
+      },
+      {
+        "username": "user12",
+        "email": "user12@example.com",
+        "password": "password12",
+        "address": "999 Pine St, Seaside",
+        "phone_number": "555-999-4444",
+        "medical_profile": "High blood pressure",
+        "open_to_donations": false,
+        "age": 29,
+        "sex": "Female",
+        "blood_type": "A-"
+      },
+      {
+        "username": "user13",
+        "email": "user13@example.com",
+        "password": "password13",
+        "address": "1010 Cedar St, Mountainside",
+        "phone_number": "555-1010-5555",
+        "medical_profile": "Allergic to cats",
+        "open_to_donations": true,
+        "age": 34,
+        "sex": "Male",
+        "blood_type": "B-"
+      },
+      {
+        "username": "user14",
+        "email": "user14@example.com",
+        "password": "password14",
+        "address": "1111 Oak St, Riverside",
+        "phone_number": "555-1111-9999",
+        "medical_profile": "Migraines",
+        "open_to_donations": true,
+        "age": 26,
+        "sex": "Female",
+        "blood_type": "O+"
+      },
+      {
+        "username": "user15",
+        "email": "user15@example.com",
+        "password": "password15",
+        "address": "1212 Elm St, Suburbia",
+        "phone_number": "555-1212-3333",
+        "medical_profile": "None",
+        "open_to_donations": false,
+        "age": 42,
+        "sex": "Male",
+        "blood_type": "AB+"
+      },
+      {
+        "username": "user16",
+        "email": "user16@example.com",
+        "password": "password16",
+        "address": "1313 Pine St, Uptown",
+        "phone_number": "555-1313-7777",
+        "medical_profile": "High cholesterol",
+        "open_to_donations": true,
+        "age": 37,
+        "sex": "Female",
+        "blood_type": "O-"
+      },
+      {
+        "username": "user17",
+        "email": "user17@example.com",
+        "password": "password17",
+        "address": "1414 Cedar St, Downtown",
+        "phone_number": "555-1414-9999",
+        "medical_profile": "Allergic to nuts",
+        "open_to_donations": true,
+        "age": 31,
+        "sex": "Male",
+        "blood_type": "A+"
+      },
+      {
+        "username": "user18",
+        "email": "user18@example.com",
+        "password": "password18",
+        "address": "1515 Oak St, Riverside",
+        "phone_number": "555-1515-1111",
+        "medical_profile": "Type 1 diabetes",
+        "open_to_donations": false,
+        "age": 44,
+        "sex": "Female",
+        "blood_type": "B+"
+      },
+      {
+        "username": "user19",
+        "email": "user19@example.com",
+        "password": "password19",
+        "address": "1616 Elm St, Parkville",
+        "phone_number": "555-1616-2222",
+        "medical_profile": "Asthma",
+        "open_to_donations": true,
+        "age": 33,
+        "sex": "Male",
+        "blood_type": "O-"
+      },
+      {
+        "username": "user20",
+        "email": "user20@example.com",
+        "password": "password20",
+        "address": "1717 Maple St, Lakeside",
+        "phone_number": "555-1717-3333",
+        "medical_profile": "High blood pressure",
+        "open_to_donations": false,
+        "age": 36,
+        "sex": "Female",
+        "blood_type": "A-"
       }
     ],
     "diagnoses": [
@@ -159,74 +354,74 @@
       },
       {
         "date": "2023-10-17",
-        "blood_type": "B+",
+        "blood_type": "AB+",
         "user": "user2",
-        "use_of": "Transfusion for a cancer patient",
+        "use_of": "Emergency surgery for another patient",
         "notes": "Donated 2 pints of blood.",
         "blood_received": true
       },
       {
         "date": "2023-10-18",
-        "blood_type": "O-",
+        "blood_type": "B-",
         "user": "user3",
-        "use_of": "Treating a car accident victim",
-        "notes": "Donated 2 pints of blood.",
+        "use_of": "Treating a trauma patient",
+        "notes": "Donated 1 pint of blood.",
         "blood_received": true
       },
       {
         "date": "2023-10-19",
-        "blood_type": "A-",
+        "blood_type": "A+",
         "user": "user4",
         "use_of": "Scheduled blood bank donation",
-        "notes": "Donated 1 pint of blood.",
+        "notes": "Donated 3 pints of blood.",
         "blood_received": false
       },
       {
         "date": "2023-10-20",
-        "blood_type": "AB+",
+        "blood_type": "O-",
         "user": "user5",
-        "use_of": "Transfusion for a surgery patient",
-        "notes": "Donated 3 pints of blood.",
+        "use_of": "Transfusion for a surgical patient",
+        "notes": "Donated 2 pints of blood.",
         "blood_received": true
       },
       {
         "date": "2023-10-21",
-        "blood_type": "B+",
-        "user": "user1",
-        "use_of": "Treating an accident victim",
-        "notes": "Donated 2 pints of blood.",
+        "blood_type": "AB+",
+        "user": "user6",
+        "use_of": "Emergency room patient in need",
+        "notes": "Donated 1 pint of blood.",
         "blood_received": true
       },
       {
         "date": "2023-10-22",
         "blood_type": "A+",
-        "user": "user2",
+        "user": "user7",
         "use_of": "Scheduled blood bank donation",
         "notes": "Donated 1 pint of blood.",
         "blood_received": false
       },
       {
         "date": "2023-10-23",
-        "blood_type": "O-",
-        "user": "user3",
-        "use_of": "Transfusion for a surgical patient",
-        "notes": "Donated 3 pints of blood.",
-        "blood_received": true
-      },
-      {
-        "date": "2023-10-24",
-        "blood_type": "AB-",
-        "user": "user4",
+        "blood_type": "B+",
+        "user": "user8",
         "use_of": "Treating a trauma patient",
         "notes": "Donated 2 pints of blood.",
         "blood_received": true
       },
       {
-        "date": "2023-10-25",
-        "blood_type": "B-",
-        "user": "user5",
-        "use_of": "Emergency room patient in need",
+        "date": "2023-10-24",
+        "blood_type": "O+",
+        "user": "user9",
+        "use_of": "Scheduled blood bank donation",
         "notes": "Donated 1 pint of blood.",
+        "blood_received": false
+      },
+      {
+        "date": "2023-10-25",
+        "blood_type": "AB-",
+        "user": "user10",
+        "use_of": "Transfusion for a surgical patient",
+        "notes": "Donated 3 pints of blood.",
         "blood_received": true
       }
     ]
